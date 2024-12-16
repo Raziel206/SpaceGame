@@ -96,12 +96,15 @@ public class Menue extends State implements Statemethods {
 				mb.setMouseOver(true);
 				break;
 			}
+		System.out.println(e.getX()+","+e.getY());
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
+//		System.out.println(e.getKeyCode() == KeyEvent.VK_ENTER);
 		if (e.getKeyCode() == KeyEvent.VK_ENTER) {
 			Gamestate.state = Gamestate.PLAYING;
+			System.out.println("Enter pressed");
 		}
 
 	}

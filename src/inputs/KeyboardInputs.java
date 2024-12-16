@@ -40,17 +40,8 @@ public class KeyboardInputs implements KeyListener {
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		switch(Gamestate.state) {
-		case MENU:
-			gamepanel.getGame().getMenu().keyReleased(e);
-			break;
-		case PLAYING:
-			gamepanel.getGame().getPlaying().keyReleased(e);
-			break;
-		default:
-			break;
 			
 		}
-	}
-
 }
+
+

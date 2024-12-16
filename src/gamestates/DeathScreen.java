@@ -24,7 +24,6 @@ public class DeathScreen {
 		this.playing = playing;
 		createImg();
 		createButtons();
-		System.out.println("Your score: "+Enemies.SCORE);
 	}
 
 	private void createImg() {

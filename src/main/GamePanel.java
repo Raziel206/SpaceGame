@@ -35,7 +35,7 @@ public class GamePanel extends JPanel {
 	}
 
 	public void updateGame() {
-
+		
 	}
 
 	public Game getGame() {
